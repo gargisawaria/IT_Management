@@ -1,0 +1,57 @@
+﻿@model ITManagement.ViewModels.DeviceViewModel
+
+<h1>Device Filter</h1>
+
+@using (Html.BeginForm("DeviceFilter", "Inventory", FormMethod.Get))
+{
+    <div class="form-group">
+        @Html.Label("Filter by Category:")
+        @Html.DropDownListFor(model => model.SelectedCategoryId, new SelectList(Model.Category, "CategoryId", "CategoryName"), "All Categories", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Filter by Status:")
+        @Html.DropDownListFor(model => model.SelectedStatus, new SelectList(new List<SelectListItem>
+        {
+            new SelectListItem { Text = "All", Value = "" },
+            new SelectListItem { Text = "Alloted", Value = "true" },
+            new SelectListItem { Text = "Unalloted", Value = "false" }
+        }, "Value", "Text"), "All", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Filter by Device Name:")
+        @Html.TextBoxFor(model => model.SelectedDeviceName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.Label("Filter by User Name:")
+        @Html.TextBoxFor(model => model.SelectedUserName, new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Device ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>User</th>
+            <th>Alloted Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var device in Model.Device)
+        {
+            <tr>
+                <td>@device.DeviceId</td>
+                <td>@device.DeviceName</td>
+                <td>@(device.Category != null ? device.Category.CategoryName : "")</td>
+                <td>@device.Description</td>
+                <td>@(device.Status ? "Alloted" : "Unalloted")</td>
+                <td>@(device.User != null ? device.User.FullName : "")</td>
+                <td>@(device.AllotedDate != null ? device.AllotedDate.Value.ToString("MM/dd/yyyy") : "")</td>
+            </tr>
+        }
+    </tbody>
+</table>

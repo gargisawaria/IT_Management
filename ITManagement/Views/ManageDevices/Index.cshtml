@@ -1,0 +1,237 @@
+﻿@model ITManagement.Models.Devices
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    #headingcentre {
+        text-align: center;
+    }
+
+    #addbutton {
+        background-color: #00BFFF;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 8px;
+        color: white;
+        border-bottom-color: #00BFFF;
+        border: none;
+        box-shadow: 2px 2px 2px 2px #E8E8E8;
+    }
+
+    #Edit {
+        background-color: #00BFFF;
+        border: none;
+        margin-right: 5px;
+        padding: 6px;
+        border-radius: 3px;
+    }
+
+        #Edit a {
+            text-decoration: none;
+            color: white;
+        }
+
+    #Delete {
+        background-color: #00BFFF;
+        border: none;
+        padding: 6px;
+        border-radius: 3px;
+    }
+
+        #Delete a {
+            text-decoration: none;
+            color: white;
+        }
+
+    thead {
+        color: white;
+        background-color: green !important;
+    }
+
+    tr:nth-child(even) td {
+        background-color: #E8E8E8;
+    }
+
+    tr:nth-child(odd) td {
+        background-color: white;
+    }
+</style>
+
+<h2>Index</h2>
+
+<button id="addbutton" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+
+    + Add Device
+</button>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                Device Name
+            </th>
+            <th>
+                Category
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                User Code
+            </th>
+            <th>
+                Alloted To
+            </th>
+            <th>
+                AllotedDate
+            </th>
+             <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.Device)
+        {
+        <tr>
+
+            <td>
+                @item.DeviceName
+            </td>
+            <td>
+                @item.Category.CategoryName
+            </td>
+            <td>
+                @item.Description
+            </td>
+            <td>
+                @if(item.Status)
+                {
+                  <p>Alloted</p>
+                }
+                 else{ 
+                   <p>Not Alloted</p>
+                }
+            </td>
+            <td>
+                @if (item.User != null)
+                {
+                    @item.User.UserId
+                }
+                else
+                {
+                    <text>User not available</text>
+                }
+            </td>
+            <td>
+                @if (item.User != null)
+                {
+                    @item.User.FullName
+                }
+                else
+                {
+                    <text>User not available</text>
+                }
+            </td>
+            <td>
+                @item.AllotedDate
+            </td>
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.DeviceId">Edit</a> |
+
+                <form method="post" asp-action="DeleteDevice" id="deleteCategory" style="display:inline; color:white">
+                    <input type="hidden" asp-for="DeviceId" name="deleteDeviceId" id="deleteDeviceId" value="@item.DeviceId" />
+
+                    <button type="submit" id="Delete">
+
+                        Delete
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <style>
+                                svg {
+                                    fill: #ffffff
+                                }
+                            </style>
+                            <path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z" />
+                        </svg>
+                    </button>
+                </form>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+@*Modal for create*@
+
+
+<form method="post" asp-controller="ManageDevices"  asp-action="Create" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2 class="modal-title" id="exampleModalLabel">Add Device</h2>
+
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label asp-for="DeviceId" class="control-label"></label>
+                    <input asp-for="DeviceId" asp-items="ViewBag.DeviceId" class="form-control"></input>
+                </div>
+                <div class="form-group">
+                    <label asp-for="DeviceName" class="control-label"></label>
+                    <input asp-for="DeviceName" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="CategoryId" class="control-label"></label>
+                    <select asp-for="CategoryId" asp-items="ViewBag.CategoryId" class="form-control"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input asp-for="Status" id="statusCheckbox" /> Status
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="UserId" class="control-label"></label>
+                        <select asp-for="UserId" class="form-control" asp-items=ViewBag.UserId id="userIdSelect"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer form-group">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" style="background-color:#BB3F3F; color:white">Close</button>
+                <button type="submit" class="btn btn-primary" value="Create">Add</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var statusCheckbox = document.getElementById('statusCheckbox');
+        var userIdSelect = document.getElementById('userIdSelect');
+
+        statusCheckbox.addEventListener('change', function () {
+            userIdSelect.disabled = !statusCheckbox.checked;
+        });
+
+        // Set initial state
+        userIdSelect.disabled = !statusCheckbox.checked;
+    });
+</script>
+
+
+
+

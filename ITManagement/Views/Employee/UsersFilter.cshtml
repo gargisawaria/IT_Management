@@ -1,0 +1,47 @@
+﻿@model ITManagement.ViewModels.UserWithDevicesViewModel
+
+<h1>Users with Devices</h1>
+
+@using (Html.BeginForm("UsersFilter", "Employee", FormMethod.Get))
+{
+    <div class="form-group">
+        @Html.Label("Search by Username:")
+        @Html.TextBoxFor(model => model.SelectedUsername, new { @class = "form-control" })
+        <input type="submit" value="Search" class="btn btn-primary" />
+    </div>
+}
+
+@foreach (var user in Model.UsersWithDevices.GroupBy(ud => ud.UserId))
+{
+    <h2>@user.First().UserName</h2> <!-- Display the username for the group -->
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>User Name</th>
+                <th>User Email</th>
+                <th>Device Name</th>
+                <th>Device ID</th>
+                <th>Category Name</th>
+                <th>Device Description</th>
+                <th>Allotted Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in user)
+            {
+                <tr>
+                    <td>@item.UserId</td>
+                    <td>@item.UserName</td>
+                    <td>@item.UserEmail</td>
+                    <td>@(item.DeviceName != "N/A" ? item.DeviceName : "")</td>
+                    <td>@(item.DeviceID > 0 ? item.DeviceID.ToString() : "")</td>
+                    <td>@(item.CategoryName != "N/A" ? item.CategoryName : "")</td>
+                    <td>@(item.DeviceDescription != "N/A" ? item.DeviceDescription : "")</td>
+                    <td>@(item.AllottedDate.HasValue ? item.AllottedDate.Value.ToString("MM/dd/yyyy") : "")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

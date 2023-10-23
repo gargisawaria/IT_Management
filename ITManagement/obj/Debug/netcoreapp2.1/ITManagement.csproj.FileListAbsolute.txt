@@ -1,0 +1,99 @@
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.deps.json
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.runtimeconfig.json
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.runtimeconfig.dev.json
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.dll
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.pdb
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.Views.dll
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.Views.pdb
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.csproj.CoreCompileInputs.cache
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorAssemblyInfo.cache
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorAssemblyInfo.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.AssemblyInfoInputs.cache
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.AssemblyInfo.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.TagHelpers.input.cache
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.TagHelpers.output.cache
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorCoreGenerate.cache
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Inventory\Inventory.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorTargetAssemblyInfo.cache
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorTargetAssemblyInfo.cs
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.Views.pdb
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.dll
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.pdb
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.csproj.CopyComplete
+C:\Users\SidarthRoy\source\repos\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.csprojAssemblyReference.cache
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.deps.json
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.runtimeconfig.json
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.runtimeconfig.dev.json
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.dll
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.pdb
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.Views.dll
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.Views.pdb
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.csproj.CoreCompileInputs.cache
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorAssemblyInfo.cache
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorAssemblyInfo.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.AssemblyInfoInputs.cache
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.AssemblyInfo.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.TagHelpers.input.cache
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.TagHelpers.output.cache
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorCoreGenerate.cache
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\ManageCategory\getCategory.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\ManageDevices\Index.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\ManageUsers\getUser.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorTargetAssemblyInfo.cache
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorTargetAssemblyInfo.cs
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.Views.pdb
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.dll
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.pdb
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.csproj.CopyComplete
+C:\Users\VanditJain\source\repos\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.csprojAssemblyReference.cache
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.csproj.CoreCompileInputs.cache
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorAssemblyInfo.cache
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorAssemblyInfo.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.AssemblyInfoInputs.cache
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.AssemblyInfo.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.TagHelpers.input.cache
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.TagHelpers.output.cache
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorCoreGenerate.cache
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Dashboard\Dashboard.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Employee\UsersFilter.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Inventory\DeviceFilter.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\ManageCategory\getCategory.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\ManageDevices\Index.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\ManageUsers\getUser.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorTargetAssemblyInfo.cache
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.RazorTargetAssemblyInfo.cs
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.dll
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.pdb
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.deps.json
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.runtimeconfig.json
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.runtimeconfig.dev.json
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.dll
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.pdb
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.Views.dll
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\bin\Debug\netcoreapp2.1\ITManagement.Views.pdb
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.Views.pdb
+C:\Users\GargiSawaria\Downloads\ITManagement (4)\ITManagement\ITManagement\ITManagement\obj\Debug\netcoreapp2.1\ITManagement.csproj.CopyComplete
